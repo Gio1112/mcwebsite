@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Info - Your Minecraft Server</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Server Information</h1>
+            <p>Learn more about our Minecraft server and community.</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mods.html">Mods</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="info.html" class="active">Info</a></li>
+            </ul>
+        </nav>
+
+        <section class="section" id="server-information">
+            <h2>About Our Server</h2>
+            <p>We're a friendly community of Minecraft players who love building, exploring, and creating together. Join us and become part of our adventure!</p>
+            <p>We might have specific events, building projects, or community goals that we'll post updates about here or on our Discord. Feel free to ask questions and get involved!</p>
+            <p>We value community feedback, so if you have any suggestions, please let the server staff know. (i got chatgpt to write this)</p>
+        </section>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const sections = document.querySelectorAll('.section');
+          sections.forEach(section => {
+            section.classList.add('loaded');
+          });
+        });
+      </script>
+</body>
+</html>

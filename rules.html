@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Rules - Your Minecraft Server</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div id="loading-screen">
+        <div id="loading-spinner"></div>
+    </div>
+    <div class="container">
+        <header>
+            <h1>Server Rules</h1>
+            <p>Please read and follow these rules to ensure a fun environment for everyone.</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mods.html">Mods</a></li>
+                <li><a href="rules.html" class="active">Rules</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </nav>
+
+        <section class="section" id="server-rules">
+            <h2>Our Rules</h2>
+            <ol id="rules-list">
+                <li>Respect all players.</li>
+                <li>No griefing or stealing.</li>
+                <li>No cheating or exploits.</li>
+                <li>Follow staff instructions.</li>
+                <li>Have fun!</li>
+            </ol>
+        </section>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const sections = document.querySelectorAll('.section');
+          sections.forEach(section => {
+            section.classList.add('loaded');
+          });
+        });
+      </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Minecraft Server Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    </div>
+    <div class="container">
+        <header>
+            <img src="images/server-logo.png" alt="Server Logo" width="150">
+            <h1>Welcome to Your Minecraft Server!</h1>
+            <p>Join our thriving community for unforgettable Minecraft adventures!</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="mods.html">Mods</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="info.html">Info</a></li>
+        </nav>
+
+        <section class="section" id="announcements">
+            <h2>Latest Announcements</h2>
+            <p>Check out our latest server news and updates!</p>
+            <ul>
+                <li>Opening soon</li>
+            </ul>
+        </section>
+
+        <section class="section" id="community">
+            <h2>Join Our Community!</h2>
+            <p>Connect with fellow players and stay up-to-date:</p>
+            <a href="https://discord.gg/w9TbcSYt" class="button" target="_blank">Join our Discord Server</a>
+            </section>
+
+        <section class="section" id="basic-info">
+            <h2>Basic Information</h2>
+            <div class="info-item">
+                <strong>Server Name:</strong> <span id="server-name">Klipix's gaming xeon server</span>
+            </div>
+            <div class="info-item">
+                <strong>IP Address:</strong> <span class="important" id="server-ip">phlog.aternos.host</span>
+            </div>
+            <div class="info-item">
+                <strong>Port:</strong> <span class="important" id="server-port">58282</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 klipix_kjipix#0 , giorgiodabest#0</p>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const sections = document.querySelectorAll('.section');
+          sections.forEach(section => {
+            section.classList.add('loaded');
+          });
+        });
+      </script>
+</body>
+</html>
